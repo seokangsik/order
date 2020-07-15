@@ -32,7 +32,7 @@ spring:
           contentType: application/json
 api:
   url:
-    payment: localhost:8085
+    payment: http://localhost:8085
 logging:
   level:
     org.hibernate.type: trace
