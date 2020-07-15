@@ -30,9 +30,7 @@ spring:
         event-out:
           destination: rental
           contentType: application/json
-api:
-  url:
-    payment: http://payment:8085
+
 logging:
   level:
     org.hibernate.type: trace
